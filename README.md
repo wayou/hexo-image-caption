@@ -1,6 +1,6 @@
 # hexo-image-caption
 
-add caption for images within posts
+Auto adding caption for images with `alt` attribute.
 
 [![build status](https://secure.travis-ci.org/wayou/hexo-image-caption.svg)](http://travis-ci.org/wayou/hexo-image-caption)
 [![dependency status](https://david-dm.org/wayou/hexo-image-caption.svg)](https://david-dm.org/wayou/hexo-image-caption)
@@ -18,6 +18,22 @@ adding following section to your hexo site `_config.yml` file to enable and conf
 image_caption:
   enable: true #false to disable
   class_name: #if you wanna customize the style for the caption,you can assign a class name, default is 'image-caption'
+```
+
+## How it works
+
+This extension takes the `alt` attribe as the cation for images.
+
+For example:
+
+```md
+![description](xxxx.jpg)
+```
+the result will be:
+
+```html
+<img src="xxxx.jpg" alt="description">
+<span class="image-caption">description</span>
 ```
 
 ## Credits

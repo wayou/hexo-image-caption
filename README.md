@@ -2,8 +2,8 @@
 
 Auto adding caption for images with `alt` attribute.
 
-[![npm package](https://img.shields.io/npm/v/@umu-team/i18n-tool.svg)](https://www.npmjs.com/package/@umu-team/i18n-tool)
-[![npm package](https://img.shields.io/npm/dm/@umu-team/i18n-tool.svg)](https://www.npmjs.com/package/@umu-team/i18n-tool)
+[![npm package](https://img.shields.io/npm/v/hexo-image-caption.svg)](https://www.npmjs.com/package/hexo-image-caption)
+[![npm package](https://img.shields.io/npm/dm/hexo-image-caption.svg)](https://www.npmjs.com/package/hexo-image-caption)
 
 
 ## Installation

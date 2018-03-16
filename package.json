@@ -8,7 +8,8 @@
     "inspect": "jsinspect",
     "pretest": "npm run lint && npm run inspect",
     "test": "istanbul cover ./node_modules/.bin/_mocha test",
-    "posttest": "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90 && rm -rf coverage) || echo Look at 'coverage/lcov-report/index.html' to find out more"
+    "posttest":
+      "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90 && rm -rf coverage) || echo Look at 'coverage/lcov-report/index.html' to find out more"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -23,6 +24,9 @@
     "istanbul": "^0.3.19",
     "jsinspect": "^0.7.0",
     "mocha": "^2.3.2"
+  },
+  "peerDependencies": {
+    "hexo": "^2.0.0 || ^3.0.0"
   },
   "repository": {
     "type": "git",
